@@ -1,0 +1,30 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+.header {
+    background: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__name {
+    font-size: px;
+    color: var(--color-3);
+    text-align: left;
+}
+.body {
+    background: green;
+}
+.balance {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.savings {
+    margin-right: 20px;
+}
