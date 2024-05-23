@@ -13,16 +13,17 @@
     margin-left: 15px; 
     margin-right: 15px;
 }
-.header__inf {
+.header__info {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.header__inf p {
+.header__info p {
     margin: 0 12px;
     color: white;
+    font-family: "Roboto Condensed", sans-serif;
 }
-.header__inf img {
+.header__info img {
     width: 30px;
     height: 30px;
 }
@@ -30,18 +31,20 @@
     width: 30px;
     height: 30px;
 }
-.body {
+.bodyy {
     width: 390px;
     height: 240px;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    background-color: var(--color-1);
+    background-color: black;
+    border: 2px solid black;
     background-image: url(../Storage/Img/Group\ 8.svg);
 }
 .mini-container {
     width: 200px;
     height: 200px;
-    background-color: var(--color-2);
+    background: linear-gradient(gray, white);
+    border: 2px solid black;
     border-radius: 50%;
     margin-left: 100px;
     margin-top: 80px;
@@ -53,8 +56,14 @@
 .textoo {
     margin-left: 127px;
     margin-top: -130px;
-    color: white;
+    color: black;
     font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.textoo p {
+    margin-left: 27px;
+    margin-top: 8px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .botones {
     display: flex;
@@ -65,41 +74,54 @@
 .boton1 {
     width: 99px;
     height: 33px;
-    background-color: var(--color-1);
+    background-color: black;
     border-radius: 40px;
     text-align: center;
     color: white;
     margin-top: 100px;
     margin-left: 0px;
 }
+.boton1 p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
 .boton2 {
     width: 99px;
     height: 33px;
     background-color: white;
-    border: 2px solid var(--color-2);
+    border: 2px solid black;
     border-radius: 40px;
     text-align: center;
-    color: var(--color-2);
+    color: black;
     margin-top: 100px;
+}
+
+.boton2 p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
 }
 .boton3 {
     width: 99px;
     height: 33px;
     background-color: white;
-    border: 2px solid var(--color-3);
+    border: 2px solid black;
     border-radius: 40px;
     text-align: center;
-    color: var(--color-3);
+    color: black;
     margin-top: 100px;
+}
+.boton3 p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
 }
 .grafica img {
     width: 400px;
     margin-top: 18px;
 }
-.container {
+.containerr {
     width: 390px;
     height: 200px;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     flex-direction: row;
 }
@@ -107,20 +129,22 @@
     width: 150px;
     margin-top: 27px;
 }
-.texto p strong {
+.texto0 p strong {
     margin-left: 30px;
     margin-bottom: 10px;
     font-size: 18px;
     color: var(--color-1);
+    font-family: "Roboto Condensed", sans-serif;
 }
-.texto p1 {
+.texto0 p1 {
     margin-left: 30px;
     font-size: 13px;
     color: #868686;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .equis img {
     width: 26px;
-    margin-left: 200px;
+    margin-left: 180px;
     margin-top: 20px;
 }
 .footer__ul img {
@@ -128,8 +152,9 @@
 }
 
 .footer__ul{
-    background: wheat;
+    background: gray;
     position: fixed;
+    border-radius: 40px;
     bottom: 0;
     width: 100%;
     height: 55px;
@@ -140,8 +165,7 @@
 }
 .footer__ul li{
     list-style: none;
-    background: wheat;
-    height: 40px;
+    height: 55px;
     width: 90px;
     display: flex;
     align-items: center;
@@ -153,3 +177,7 @@
 .footer__ul li a img{
     object-fit: contain;
 }   
+.footer__ul li a:hover {
+    transition: all 0.5s ease; 
+    filter: invert(1);
+}
