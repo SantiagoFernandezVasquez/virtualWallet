@@ -2,7 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "ST-Pro-Text";
+    font-family: "EncodeSans-Regular";
     box-sizing: border-box;
 }
 .header {
@@ -21,6 +21,7 @@
 .header__inf p {
     margin: 0 12px;
     color: white;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .header__inf img {
     width: 30px;
@@ -41,9 +42,11 @@
 .saludo strong {
     font-size: 35px;
     margin-bottom: 9px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .saludo p {
     font-size: 35px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .balance {
     display: flex;
@@ -55,21 +58,26 @@
 .savings {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .savings p {
     margin-left: 50px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .assets {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .big__text {
     font-size: 15px;
     margin-left: 10px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .price {
     font-size: 15px;
     margin-left: 10px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .line1 img {
     justify-content: left;
@@ -93,6 +101,7 @@
     margin: 15px 12px;
     color: var(--color-1);
     font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .container__img {
     display: flex;
@@ -109,6 +118,7 @@
     margin-top: 0px;
     color: var(--color-1);
     font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .container1, .container2, .container3 {
     width: 250px;
@@ -121,7 +131,7 @@
 }
 .container1:hover, .container2:hover, .container3:hover{
     transition: all 0.8s ease;
-    background: var(--color-2);
+    filter: invert(1);
 }
 .container1 img, .container2 img, .container3 img {
     width: 50px;
@@ -132,6 +142,7 @@
 .container1 p, .container2 p, .container3 p {
     font-size: 18px;
     color: var(--color-1);
+    font-family: "Roboto Condensed", sans-serif;
 }
 .Image2 {
     width: 30px;
@@ -142,26 +153,48 @@
     display: flex;
     flex-direction: row;
     margin-left: 17px;
+    border-radius: 40px;
+    margin-right: 17px;
 }
-.trans__text p {
+.transaccion:hover {
+    transition: all 0.8s ease;
+    background-color: rgb(141, 255, 141);
+}
+.perdida {
+    display: flex;
+    flex-direction: row;
+    margin-left: 17px;
+    border-radius: 40px;
+    margin-right: 17px;
+}
+.perdida:hover {
+    transition: all 0.8s ease;
+    background-color: rgb(255, 101, 101);
+}
+.trans__text p strong {
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
 }
-.small__text {
+.small__text small {
     margin-left: 13px;
     margin-top: 0;
-    color: var(--color-3);
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
 }
-.trans__price p {
+.trans__price p strong {
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 90px;
 }
-.small__price p small {
-    margin-left: 13px;
+.small_price small {
+    margin-left: 110px;
     margin-top: 0;
-    color: var(--color-3);
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .footer__ul {
     display: flex;
@@ -172,7 +205,7 @@
     margin-bottom: 2px;
 }
 .body {
-    background-color: var(--color-1);
+    background-color: black;
     background-image: url(../Storage/Img/background1.svg);
 }
 .footer__ul img {
@@ -180,8 +213,9 @@
 }
 
 .footer__ul{
-    background: var(--color-1);
+    background: gray;
     position: fixed;
+    border-radius: 40px;
     bottom: 0;
     width: 100%;
     height: 55px;
@@ -192,8 +226,7 @@
 }
 .footer__ul li{
     list-style: none;
-    background: var(--color-1);
-    height: 40px;
+    height: 55px;
     width: 90px;
     display: flex;
     align-items: center;
@@ -205,3 +238,7 @@
 .footer__ul li a img{
     object-fit: contain;
 }   
+.footer__ul li a:hover {
+    transition: all 0.5s ease; 
+    filter: invert(1);
+}

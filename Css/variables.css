@@ -4,6 +4,18 @@
     --color-3: #B5C5C3;
 }
 @font-face {
-    font-family: "SF-Pro-Text";
-    src: url("../Storage/Fonts/");
+    font-family: "EncodeSans-Regular";
+    src: url("../Storage/Font/encode-sans/EncodeSans-Regular.ttf");
+}
+@font-face {
+    font-family: "EncodeSans-Medium";
+    src: url("../Storage/Font/encode-sans/EncodeSans-Medium.ttf");
+}
+@font-face {
+    font-family: "EncodeSans-SemiBold";
+    src: url("../Storage/Font/encode-sans/EncodeSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: "EncodeSans-Bold";
+    src: url("../Storage/Font/encode-sans/EncodeSans-Bold.ttf");
 }

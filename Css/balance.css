@@ -128,7 +128,7 @@
 }
 
 .footer__ul{
-    background: var(--color-1);
+    background: wheat;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -140,7 +140,7 @@
 }
 .footer__ul li{
     list-style: none;
-    background: var(--color-1);
+    background: wheat;
     height: 40px;
     width: 90px;
     display: flex;
