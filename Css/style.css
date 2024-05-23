@@ -6,25 +6,108 @@
     box-sizing: border-box;
 }
 .header {
-    background: red;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.header__name {
-    font-size: px;
-    color: var(--color-3);
-    text-align: left;
+.header__inf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__inf p {
+    margin: 0 12px;
+    color: white;
+}
+.header__inf img {
+    width: 30px;
+    height: 30px;
+}
+.header__menu img {
+    width: 30px;
+    height: 30px;
 }
 .body {
-    background: green;
+    background: #120f60;
+}
+.saludo {
+    display: grid;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.saludo strong {
+    font-size: 35px;
+    margin-bottom: 9px;
+}
+.saludo p {
+    font-size: 35px;
 }
 .balance {
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: white;
+    margin-right: 100px;
+    margin-bottom: 17px;
+}
+.big__text {
+    font-size: 15px;
+}
+.line1 {
+    width: 30%;
+}
+.line2 {
+    width: 30%;
 }
 .savings {
     margin-right: 20px;
+}
+.container {
+    background: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.transaccion__info p {
+    margin: 15px 12px;
+    color: var(--color-1);
+    font-size: 25px;
+}
+.container__img {
+    display: flex;
+    flex-direction: row;
+}   
+.container__img p {
+    margin: 15px 12px;
+    margin-top: 30px;
+    color: var(--color-1);
+    font-size: 25px;
+}
+.Image1 {
+    width: 30%;
+    margin-right: 90px;
+    margin-left: 0;
+}
+.Image2 {
+    width: 30%;
+    margin-right: 100px;
+    margin-left: 0;
+}
+.transaccion {
+    display: flex;
+    flex-direction: row;
+}
+.footer__ul {
+    display: flex;
+    flex-direction: row;
+    background: var(--color-3);
+}
+.body {
+    background-color: var(--color-1);
+    background-image: url(../Storage/Img/background1.svg);
+}
+.footer__ul {
+
 }
