@@ -30,9 +30,6 @@
     width: 30px;
     height: 30px;
 }
-.body {
-    background: #120f60;
-}
 .saludo {
     display: grid;
     align-items: center;
@@ -174,13 +171,14 @@
     justify-content: space-between;
     margin-bottom: 2px;
 }
-.footer__ul img {
-    width: 50px;
-}
 .body {
     background-color: var(--color-1);
     background-image: url(../Storage/Img/background1.svg);
 }
+.footer__ul img {
+    width: 50px;
+}
+
 .footer__ul{
     background: var(--color-1);
     position: fixed;
