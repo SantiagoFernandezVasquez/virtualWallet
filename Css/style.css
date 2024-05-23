@@ -69,14 +69,22 @@
     flex-direction: column;
     font-family: "Roboto Condensed", sans-serif;
 }
-.big__text {
+.big__text p {
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 70px;
     font-family: "Roboto Condensed", sans-serif;
 }
-.price {
+.big__text p1 {
     font-size: 15px;
-    margin-left: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.price p {
+    font-size: 15px;
+    margin-left: 70px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.price p1 {
+    font-size: 15px;
     font-family: "Roboto Condensed", sans-serif;
 }
 .line1 img {
