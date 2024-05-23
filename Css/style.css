@@ -2,7 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "EncodeSans-Regular";
+    font-family: "ST-Pro-Text";
     box-sizing: border-box;
 }
 .header {
@@ -146,13 +146,25 @@
     flex-direction: row;
     margin-left: 17px;
 }
-.trans__text {
+.trans__text p {
     display: flex;
     flex-direction: column;
+    font-size: 18px;
 }
 .small__text {
     margin-left: 13px;
     margin-top: 0;
+    color: var(--color-3);
+}
+.trans__price p {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+.small__price p small {
+    margin-left: 13px;
+    margin-top: 0;
+    color: var(--color-3);
 }
 .footer__ul {
     display: flex;
